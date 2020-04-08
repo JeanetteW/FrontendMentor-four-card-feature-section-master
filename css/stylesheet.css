@@ -1,0 +1,104 @@
+/**************************Tag Selectors***************************/
+
+body {
+  background-color: #FAFAFA;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+}
+
+h1 {
+  color: #53556A;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 75%;
+}
+
+h2 {
+  color: #53556A;
+  font-weight: 600;
+  margin: 0;
+}
+
+p {
+  color: hsl(229, 6%, 66%);
+  font-weight: 400;
+}
+
+footer {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+}
+
+/*************************Class Selectors*************************/
+.top-heading {
+  font-weight: 200;
+  margin-top: 75px;
+}
+
+.intro {
+  max-width: 40%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1140%;
+
+}
+.box {
+background-color: white;
+box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05), 0 6px 6px rgba(0,0,0,0.1);
+border-radius: 5px;
+padding: 30px;
+margin: 15px;
+width: 350px;
+}
+
+.box-cyan {
+  border-top: 5px solid hsl(180, 62%, 55%);
+  position: relative;
+  bottom: 50%;
+}
+
+.box-red {
+  border-top: 5px solid hsl(0, 78%, 62%);
+}
+
+.box-orange {
+  border-top: 5px solid hsl(34, 97%, 64%);
+}
+
+.box-blue {
+  border-top: 5px solid hsl(212, 86%, 64%);
+}
+
+.box p {
+  margin: 30px 15px 40px 0;
+}
+
+.box-push {
+  transform: translateY(50%);
+}
+
+@media  (max-width: 775px) {
+  .box-push {
+    transform: translateY(0);
+  }
+}
+
+.attribution {
+  font-size: 11px; text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
